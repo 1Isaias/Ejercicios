@@ -7,11 +7,11 @@
 // // sumar(2, 2, 4, 8, 10, 10)// En los parentesis iria el valor que le queremos agregar al parametro ()  
 // // Para tener una mejor comprension de los parametros nos imaginemos que un parametro vendria a ser una variable que luego imprimiriamos su valor en un console log
 
-// Hay dos formas de colocarle valor a los parametros.
-// Una es como el ejemplo que vimos anteriormente. Y la otra es declarando el valor dentro del parametro gracias al operador =
-// function sumar (numero1 = 2 , numero2 = 2, numero3 = 4, numero4 = 8, numero5 = 10, numero6 = 10){ 
-//         console.log(numero1 + numero2 + numero3 + numero4 - numero5 - numero6)
-//     }
+// // Hay dos formas de colocarle valor a los parametros.
+// // Una es como el ejemplo que vimos anteriormente. Y la otra es declarando el valor dentro del parametro gracias al operador =
+// // function sumar (numero1 = 2 , numero2 = 2, numero3 = 4, numero4 = 8, numero5 = 10, numero6 = 10){ 
+//    //     console.log(numero1 + numero2 + numero3 + numero4 - numero5 - numero6)
+//    //  }
 
 // // Resumen:
 // // Las funciones pueden tener parametros que son "variables" que nosotros pasamos a las funciones, dichos parametros solo pueden ser utilizados dentro de la funcion
@@ -127,14 +127,19 @@
 // Dentro de una funcion cuando el interprete encuentra la palabra reservada return, en ese momento, ignora todas las lineas de codigo que estan abajo.
 
 // Parametros
-function saludar(nombre = "Mario", edad = 0){
-    console.log(`Hola mi nombre es ${nombre} y tengo ${edad} años`)
-}
-
-saludar("KEnAi", 7);
-saludar()
+// function saludar(nombre = "Mario", edad = 0){
+//     console.log(`Hola mi nombre es ${nombre} y tengo ${edad} años`)
+// }
 
 
 
+// saludar("KEnAi", 7);
+// saludar()
+
+// function funcionDeclarada (){
+//     console.log('Esto es una funcion declarada, peude invocarse en culquier parte de nuestro codigo, incluso antes de que la funcion sea declarada')
+// }
 
 
+
+// funcion anonima autoejecutable
